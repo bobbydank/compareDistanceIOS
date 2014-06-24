@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1CB6A2019538A8B00CCDB1B /* location-icon-1105173134.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CB6A1F19538A8B00CCDB1B /* location-icon-1105173134.png */; };
+		A1EFF16F195330330072E037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFF16E195330330072E037 /* Foundation.framework */; };
+		A1EFF171195330330072E037 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFF170195330330072E037 /* CoreGraphics.framework */; };
+		A1EFF173195330330072E037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFF172195330330072E037 /* UIKit.framework */; };
+		A1EFF179195330330072E037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1EFF177195330330072E037 /* InfoPlist.strings */; };
+		A1EFF17B195330330072E037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EFF17A195330330072E037 /* main.m */; };
+		A1EFF17F195330330072E037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EFF17E195330330072E037 /* AppDelegate.m */; };
+		A1EFF182195330330072E037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EFF180195330330072E037 /* Main.storyboard */; };
+		A1EFF185195330330072E037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EFF184195330330072E037 /* ViewController.m */; };
+		A1EFF187195330330072E037 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EFF186195330330072E037 /* Images.xcassets */; };
+		A1EFF18E195330330072E037 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFF18D195330330072E037 /* XCTest.framework */; };
+		A1EFF18F195330330072E037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFF16E195330330072E037 /* Foundation.framework */; };
+		A1EFF190195330330072E037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFF172195330330072E037 /* UIKit.framework */; };
+		A1EFF198195330330072E037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1EFF196195330330072E037 /* InfoPlist.strings */; };
+		A1EFF19A195330330072E037 /* Comparing_DistanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EFF199195330330072E037 /* Comparing_DistanceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1EFF191195330330072E037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1EFF163195330330072E037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EFF16A195330330072E037;
+			remoteInfo = "Comparing Distance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1CB6A1F19538A8B00CCDB1B /* location-icon-1105173134.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location-icon-1105173134.png"; sourceTree = "<group>"; };
+		A1EFF16B195330330072E037 /* Comparing Distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comparing Distance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EFF16E195330330072E037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1EFF170195330330072E037 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1EFF172195330330072E037 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1EFF176195330330072E037 /* Comparing Distance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Comparing Distance-Info.plist"; sourceTree = "<group>"; };
+		A1EFF178195330330072E037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1EFF17A195330330072E037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1EFF17C195330330072E037 /* Comparing Distance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Comparing Distance-Prefix.pch"; sourceTree = "<group>"; };
+		A1EFF17D195330330072E037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1EFF17E195330330072E037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1EFF181195330330072E037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1EFF183195330330072E037 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1EFF184195330330072E037 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1EFF186195330330072E037 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1EFF18C195330330072E037 /* Comparing DistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comparing DistanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EFF18D195330330072E037 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1EFF195195330330072E037 /* Comparing DistanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Comparing DistanceTests-Info.plist"; sourceTree = "<group>"; };
+		A1EFF197195330330072E037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1EFF199195330330072E037 /* Comparing_DistanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comparing_DistanceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EFF168195330330072E037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EFF171195330330072E037 /* CoreGraphics.framework in Frameworks */,
+				A1EFF173195330330072E037 /* UIKit.framework in Frameworks */,
+				A1EFF16F195330330072E037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EFF189195330330072E037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EFF18E195330330072E037 /* XCTest.framework in Frameworks */,
+				A1EFF190195330330072E037 /* UIKit.framework in Frameworks */,
+				A1EFF18F195330330072E037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1EFF162195330330072E037 = {
+			isa = PBXGroup;
+			children = (
+				A1EFF174195330330072E037 /* Comparing Distance */,
+				A1EFF193195330330072E037 /* Comparing DistanceTests */,
+				A1EFF16D195330330072E037 /* Frameworks */,
+				A1EFF16C195330330072E037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EFF16C195330330072E037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF16B195330330072E037 /* Comparing Distance.app */,
+				A1EFF18C195330330072E037 /* Comparing DistanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EFF16D195330330072E037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF16E195330330072E037 /* Foundation.framework */,
+				A1EFF170195330330072E037 /* CoreGraphics.framework */,
+				A1EFF172195330330072E037 /* UIKit.framework */,
+				A1EFF18D195330330072E037 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1EFF174195330330072E037 /* Comparing Distance */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF17D195330330072E037 /* AppDelegate.h */,
+				A1EFF17E195330330072E037 /* AppDelegate.m */,
+				A1EFF180195330330072E037 /* Main.storyboard */,
+				A1EFF183195330330072E037 /* ViewController.h */,
+				A1EFF184195330330072E037 /* ViewController.m */,
+				A1EFF186195330330072E037 /* Images.xcassets */,
+				A1EFF175195330330072E037 /* Supporting Files */,
+			);
+			path = "Comparing Distance";
+			sourceTree = "<group>";
+		};
+		A1EFF175195330330072E037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB6A1F19538A8B00CCDB1B /* location-icon-1105173134.png */,
+				A1EFF176195330330072E037 /* Comparing Distance-Info.plist */,
+				A1EFF177195330330072E037 /* InfoPlist.strings */,
+				A1EFF17A195330330072E037 /* main.m */,
+				A1EFF17C195330330072E037 /* Comparing Distance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1EFF193195330330072E037 /* Comparing DistanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF199195330330072E037 /* Comparing_DistanceTests.m */,
+				A1EFF194195330330072E037 /* Supporting Files */,
+			);
+			path = "Comparing DistanceTests";
+			sourceTree = "<group>";
+		};
+		A1EFF194195330330072E037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF195195330330072E037 /* Comparing DistanceTests-Info.plist */,
+				A1EFF196195330330072E037 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1EFF16A195330330072E037 /* Comparing Distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EFF19D195330330072E037 /* Build configuration list for PBXNativeTarget "Comparing Distance" */;
+			buildPhases = (
+				A1EFF167195330330072E037 /* Sources */,
+				A1EFF168195330330072E037 /* Frameworks */,
+				A1EFF169195330330072E037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comparing Distance";
+			productName = "Comparing Distance";
+			productReference = A1EFF16B195330330072E037 /* Comparing Distance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1EFF18B195330330072E037 /* Comparing DistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EFF1A0195330330072E037 /* Build configuration list for PBXNativeTarget "Comparing DistanceTests" */;
+			buildPhases = (
+				A1EFF188195330330072E037 /* Sources */,
+				A1EFF189195330330072E037 /* Frameworks */,
+				A1EFF18A195330330072E037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EFF192195330330072E037 /* PBXTargetDependency */,
+			);
+			name = "Comparing DistanceTests";
+			productName = "Comparing DistanceTests";
+			productReference = A1EFF18C195330330072E037 /* Comparing DistanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EFF163195330330072E037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Walsh Barnes Interactive";
+				TargetAttributes = {
+					A1EFF18B195330330072E037 = {
+						TestTargetID = A1EFF16A195330330072E037;
+					};
+				};
+			};
+			buildConfigurationList = A1EFF166195330330072E037 /* Build configuration list for PBXProject "Comparing Distance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1EFF162195330330072E037;
+			productRefGroup = A1EFF16C195330330072E037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EFF16A195330330072E037 /* Comparing Distance */,
+				A1EFF18B195330330072E037 /* Comparing DistanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1EFF169195330330072E037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EFF187195330330072E037 /* Images.xcassets in Resources */,
+				A1CB6A2019538A8B00CCDB1B /* location-icon-1105173134.png in Resources */,
+				A1EFF179195330330072E037 /* InfoPlist.strings in Resources */,
+				A1EFF182195330330072E037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EFF18A195330330072E037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EFF198195330330072E037 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EFF167195330330072E037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EFF185195330330072E037 /* ViewController.m in Sources */,
+				A1EFF17F195330330072E037 /* AppDelegate.m in Sources */,
+				A1EFF17B195330330072E037 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EFF188195330330072E037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EFF19A195330330072E037 /* Comparing_DistanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1EFF192195330330072E037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EFF16A195330330072E037 /* Comparing Distance */;
+			targetProxy = A1EFF191195330330072E037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1EFF177195330330072E037 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EFF178195330330072E037 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1EFF180195330330072E037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EFF181195330330072E037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1EFF196195330330072E037 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EFF197195330330072E037 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1EFF19B195330330072E037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1EFF19C195330330072E037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1EFF19E195330330072E037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert Danklefsen (WP59568YJS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comparing Distance/Comparing Distance-Prefix.pch";
+				INFOPLIST_FILE = "Comparing Distance/Comparing Distance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4016F088-9693-4E41-9306-C86389CFCD23";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1EFF19F195330330072E037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert Danklefsen (WP59568YJS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comparing Distance/Comparing Distance-Prefix.pch";
+				INFOPLIST_FILE = "Comparing Distance/Comparing Distance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4016F088-9693-4E41-9306-C86389CFCD23";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1EFF1A1195330330072E037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Comparing Distance.app/Comparing Distance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comparing Distance/Comparing Distance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Comparing DistanceTests/Comparing DistanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A1EFF1A2195330330072E037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Comparing Distance.app/Comparing Distance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comparing Distance/Comparing Distance-Prefix.pch";
+				INFOPLIST_FILE = "Comparing DistanceTests/Comparing DistanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EFF166195330330072E037 /* Build configuration list for PBXProject "Comparing Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EFF19B195330330072E037 /* Debug */,
+				A1EFF19C195330330072E037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EFF19D195330330072E037 /* Build configuration list for PBXNativeTarget "Comparing Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EFF19E195330330072E037 /* Debug */,
+				A1EFF19F195330330072E037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EFF1A0195330330072E037 /* Build configuration list for PBXNativeTarget "Comparing DistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EFF1A1195330330072E037 /* Debug */,
+				A1EFF1A2195330330072E037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EFF163195330330072E037 /* Project object */;
+}
